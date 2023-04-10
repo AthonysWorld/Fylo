@@ -1,0 +1,72 @@
+body{
+    font-size: 11px; 
+    color: hsl(228, 45%, 44%); 
+    margin: 0;
+    text-align: center;
+}
+#header,#footer1,#footer2, #middle-container{
+    padding: 20px;
+    
+}
+.fa-brands{
+    margin-right: 5px;
+}
+#footer2{
+    padding: 20px;  
+    background-color: rgba(0, 0, 0, 0.863);
+    color: white;
+}
+#footer1{
+    background-color: hsl(228, 45%, 44%); 
+    color: white;
+}
+span,#middle-container a{
+    color: green;
+}
+img{
+    width: 100%;
+}
+.ima{
+    height: 30px;
+    width: 100px;
+    left: 100%;
+}
+.img1{
+height: 200px;
+width: 200px;
+}
+.icon{
+    height: 10px;
+    width: 10px;
+}
+.contain{
+    width: 300px;
+   padding: 5px;
+    box-shadow: 1px 1px 1.5px 1.5px rgba(0, 0, 0, 0.281);
+    border-radius: 15px;
+}
+.img1{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+@media (max-width:900px){
+    .contain{
+        width: 300px;
+        padding: 5px;
+         box-shadow: 1px 1px 1.5px 1.5px rgba(0, 0, 0, 0.281);
+         border-radius: 15px;
+         margin:5px auto 5px auto;
+         margin-right: auto;   
+    }
+    #middle-container{
+        text-align: center;
+    }
+    body{
+        text-align: center;
+    }
+    .foot{
+        text-align: left;
+    }
+}
