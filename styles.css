@@ -17,6 +17,9 @@ h1, h2, h3{
     padding: 20px;
     
 }
+.icons{
+    color: white;
+}
 .fa-brands{
     margin-right: 5px;
 }
@@ -92,5 +95,8 @@ width: 200px;
     }
     .foot{
         text-align: left;
+    }
+    .ima{
+        margin-bottom: 10px;
     }
 }
